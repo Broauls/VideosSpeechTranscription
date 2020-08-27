@@ -3,6 +3,11 @@
 This project follows a previous one, made by Maxime Gomes Correia.
 The goal is to extract the textual content in order to complete the datatsets already elaborated. 
 
+You will find in this repository :
+* One HTML file to be put inside www directory of WampServer
+* One Python script to extract URLs from the previous project
+* Two Python scripts to gather text content of videos
+
 link to previous project : https://github.com/MaximeGomesCorreia/COVID-19_Datasets_OnlineVideos
 
 ## Requirements
@@ -14,9 +19,8 @@ link to previous project : https://github.com/MaximeGomesCorreia/COVID-19_Datase
 
 ## Protocol
 
-* Put index.html file into www folder of WampServer
 * Start WampServer
 * Run chromdriver from your shell
 * Redirect audio output into audio input
-* Launch either one of the script (
+* Launch either one of the script ( Youtube_caption_gatherer.py or Vimeo_caption_gatherer.py )
 * Allow Google Chrome to use your microphone
