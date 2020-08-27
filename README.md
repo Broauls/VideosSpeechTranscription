@@ -8,6 +8,7 @@ You will find in this repository :
 * One Python script to extract URLs from the previous project
 * Two Python scripts to gather text content of videos
 
+
 link to previous project : https://github.com/MaximeGomesCorreia/COVID-19_Datasets_OnlineVideos
 
 ## Requirements
@@ -17,10 +18,11 @@ link to previous project : https://github.com/MaximeGomesCorreia/COVID-19_Datase
 * Download and install VB-Cable or anything else to redirect audio output to audio input : https://www.vb-audio.com/Cable/
 * Download and install Google Chrome ( and Brave if you plan to use Youtube )
 
-## Protocol
+## Protocol to gather video's text content
 
 * Start WampServer
 * Run chromdriver from your shell
 * Redirect audio output into audio input
 * Launch either one of the script ( Youtube_caption_gatherer.py or Vimeo_caption_gatherer.py )
 * Allow Google Chrome to use your microphone
+* let your script work for you
